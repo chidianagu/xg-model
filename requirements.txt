@@ -1,7 +1,7 @@
 pandas
 numpy 
 matplotlib
-mplsoccer 
+mplsoccer == 1.6.1
 jupyter 
 requests
 statsbombpy
