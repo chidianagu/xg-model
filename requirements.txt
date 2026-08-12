@@ -5,3 +5,4 @@ mplsoccer == 1.6.1
 jupyter 
 requests
 statsbombpy
+scikit-learn == 1.9.0
