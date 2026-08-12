@@ -42,7 +42,7 @@
   - Move shot_filters and feature-computation functions out of the notebook into src/ now that they're stable and reusable
 
 
-## Session notes - Session 3 09/08/2026 - 12/08/2026
+## Session notes - Session 3 27/07/2026 - 12/08/2026
 
 ### What I did  
 
@@ -79,7 +79,7 @@
 
   - angle_to_goal had a near-zero coefficient in the full model despite
   being a strong predictor alone — checked correlation with
-  distance_to_goal, found -0.75. Points to multicollinearity, distance 
+  distance_to_goal, found -0.75. Points to multicollinearity, distance
   absorbs most of the shared signal
   - gk_y_offset came out with a negative coefficient (unexpected as more
   off-centre keeper should mean easier chance). Bucket analysis showed
