@@ -6,3 +6,4 @@ jupyter
 requests
 statsbombpy
 scikit-learn == 1.9.0
+xgboost == 3.2.0
