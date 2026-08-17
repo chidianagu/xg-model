@@ -49,8 +49,8 @@ Having this data made it possible to build genuinely competitive defensive conte
 
 | Model | Log loss | AUC |
 |---|---|---|
-| Logistic Regression | 0.2352 | 0.8163 |
-| XGBoost | 0.2294 | 0.8291 |
+| Logistic Regression | 0.2352 | 0.8161 |
+| XGBoost | 0.2282 | 0.8296 |
 | StatsBomb xG | 0.2227 | 0.8440 |
 
 **5-fold cross-validation (logistic regression vs XGBoost):**
@@ -58,7 +58,7 @@ Having this data made it possible to build genuinely competitive defensive conte
 | Model | Log loss (mean ± std) |
 |---|---|
 | Logistic Regression | 0.2568 ± 0.0123 |
-| XGBoost | 0.2611 ± 0.0160 |
+| XGBoost | 0.2590 ± 0.0166 |
 
 The single split suggested XGBoost was clearly ahead. However, cross-validation told a different story: the two models are statistically indistinguishable, with overlapping standard deviations. I am treating the cross-validation as the more trustworthy result as it is a direct demonstration of why single-split evaluation can be misleading, especially on a dataset this size (5609 shots).
 
