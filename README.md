@@ -93,11 +93,11 @@ My understanding: these two boolean tags tend to co-occur with the geometric and
 ## Project structure
 
 xg-model/
-├── notebooks/ — exploration and modelling notebooks, numbered in order
-├── src/ — reusable feature engineering and data loading functions
-├── notes/journal.md — working notes and session-by-session decisions
-├── reports/ — saved plots
-└── requirements.txt
+|-- notebooks/ — exploration and modelling notebooks, numbered in order
+|-- src/ — reusable feature engineering and data loading functions
+|-- notes/journal.md — working notes and session-by-session decisions
+|-- reports/ — saved plots
+|-- requirements.txt
 
 ## Next steps
 
